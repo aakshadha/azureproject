@@ -1,0 +1,15 @@
+{
+	"name": "factoryprojectazure",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "32dbe87b-ca70-414d-ac09-f7d8d7b7ea1f",
+		"tenantId": "b0f392cb-1e86-455f-8e9f-bab041690f68"
+	}
+}
