@@ -13,13 +13,13 @@
   },
   {
     "schema" : "dbo",
-     "table" : "DimTrack",
+     "table" : "DimDate",
       "cdc_col" : "date",
       "from_date" : ""
   },
   {
     "schema" : "dbo",
-     "table" : "DimDate",
+     "table" : "DimTrack",
       "cdc_col" : "updated_at",
       "from_date" : ""
   },
