@@ -305,7 +305,7 @@
 												{
 													"type": "Query",
 													"text": {
-														"value": "@concat(\n'SELECT MAX(',\nitem().cdc_col,\n') as cdc FROM ',\nitem().schema,\n'.',\nitem().table\n)",
+														"value": "SELECT MAX(@{item().cdc_col}) as cdc FROM @{item().schema}.@{item().table}",
 														"type": "Expression"
 													}
 												}
